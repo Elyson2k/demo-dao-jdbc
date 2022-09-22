@@ -6,6 +6,7 @@ import model.entities.Department;
 
 public interface DepartmentDao {
 	
+	// Interface que cumpre o contrato de inserir, deletar, atualizar e retornar todos os departamentos.
 	void insert(Department obj);
 	void update(Department obj);
 	void deleteBy(Integer id);
