@@ -182,7 +182,7 @@ public class SellerDaoJDBC implements SellerDao {
 				/*
 				 * Quando programamos orientado a objeto, mesmo que procurando em forma de
 				 * tabela, temos que criar os objetos assossiados instanciados na memoria, como
-				 * esta abaio, pois so buscando como esta a acima não funciona
+				 * esta abaixo, pois so buscando como esta a acima não funciona
 				 */
 
 				Department dep = map.get(rs.getInt("DepartmentId"));
